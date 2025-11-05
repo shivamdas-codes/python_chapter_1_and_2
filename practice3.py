@@ -36,3 +36,16 @@ elif(a == 4 and g == "m"):
     print("fee is 400")
 else:
     print("no fee")
+
+
+# this codes comes under teernary operator in python 
+# we can write in two ways 
+food = input("food :")
+order = "yes" if food == "cake" else "no"
+print(order)
+
+# first by assigning the variable value in it 
+
+food = input("food :")
+print("sweet") if(food == "cake" or food == "icecream") else print("not sweet")
+# second by directly using print statement in it
