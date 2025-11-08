@@ -1,0 +1,17 @@
+input("name : ")
+# we can simply give anything as input in the input statement
+name = input("hey iam : ")
+print("hey iam ",name)
+# the above code will print whatever we give as input in the input statement
+
+
+# now if we want to print any integer value then we have to write the type of the value
+name = (input("name : "))
+age = int(input("age : "))
+print("my name is ",name," and my age is ",age)
+
+
+# now if we want to print any decimal value then we have to write the type of the value
+name = input("name : ")
+package = float(input("package : "))
+print("my name is ",name," and my package is ",package)
