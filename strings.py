@@ -29,3 +29,16 @@ print(len(str2))
 print(str1 + " " + str2)
 print(len(str1 + " " + str2))
 
+
+#3.indexing in strings
+str1 = "hello world"
+print(str1[0])   # first character
+print(str1[4])   # fifth character
+char = str1[6]
+print(char)      # seventh character
+# this is called positive indexing in strings 
+
+
+"""# str = "hello world"
+# str[5] =  'W'   # this will give error because strings are immutable in python
+# print(str)"""
