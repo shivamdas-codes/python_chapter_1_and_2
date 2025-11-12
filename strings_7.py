@@ -53,3 +53,9 @@ print(str[5:11])   # prints characters from index 6 to 10
 
 str2 = "shivam das"
 print(str2[7:len(str2)])  # prints characters from index 7 to end of the string
+
+str3 = "python programming"
+print(str3[:6])   # prints 'python'
+print(str3[7:])   # prints 'programming'
+# this means if we don't provide starting index it will consider it as 0
+# and if we don't provide ending index it will consider it as length of the string
