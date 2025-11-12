@@ -50,3 +50,6 @@ str = "hello world"
 print(str[1:5])    # prints characters from index 0 to 4
 print(str[5:11])   # prints characters from index 6 to 10
 # this mainly used to get a substring from a given string
+
+str2 = "shivam das"
+print(str2[7:len(str2)])  # prints characters from index 7 to end of the string
