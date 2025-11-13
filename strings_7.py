@@ -67,3 +67,11 @@ str = "hello world"
 print(str[-5:-1])   # prints 'worl'
 print(str[-11:-6])  # prints 'hello'
 # negative slicing starts from the end of the string where -1 is the last character
+
+
+
+# 6.string functions/methods
+str1 = "hello world"
+print(str1.endswith("world"))   # returns True if the string ends with the specified suffix
+print(str1.endswith("hello"))  # returns false if the string ends with the specified prefix
+
