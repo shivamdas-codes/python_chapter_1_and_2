@@ -106,3 +106,8 @@ print(str1.find("o"))     # returns the starting index of the first occurrence o
 print(str1.find("java"))     # returns -1 if the substring is not found
 
 
+# ex:5 [count()]
+str1 = "hello world hello"
+print(str1.count("hello"))   # returns the number of occurrences of the substring
+print(str1.count("o"))       # returns the number of occurrences of the character
+print(str1.count("python"))   # returns 0 if the substring is not found
