@@ -95,12 +95,26 @@
 
 
 
-# part- 2
-age = int(input("enter your age: "))
-if (age < 18):
-    print("you are a minor")
-elif (age >= 18 and age < 65):
-    print("you are an adult")
-else:
-    print("you are a senior citizen")
+# # part- 2
+# age = int(input("enter your age: "))
+# if (age < 18):
+#     print("you are a minor")
+# elif (age >= 18 and age < 65):
+#     print("you are an adult")
+# else:
+#     print("you are a senior citizen")
 
+
+
+num = 100
+if(num >= 2):
+    print("true")
+if(num < 10):
+    print("true")   
+if(num == 5):
+    print("true")
+elif(num != 5):
+    print("false")
+else:
+    print("none")
+            
