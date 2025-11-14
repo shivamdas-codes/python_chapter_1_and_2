@@ -131,3 +131,28 @@ else:
     print("Invalid age entered.")    
 
    
+
+# NESTED IF STATEMENT
+# example 1
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+    citizenship = input("Are you a citizen? (yes/no): ")
+    if citizenship.lower() == "yes":
+        print("You can register to vote.")
+    else:
+        print("You must be a citizen to register to vote.")
+
+
+# example 2
+marks = int(input("Enter your marks: "))
+if marks >= 90 and marks <= 100:
+    print("Grade: A")
+    if marks >= 95 and marks < 100:
+        print("Excellent performance!")
+        if marks == 100:
+            print("Perfect score!")
+elif marks >= 80 and marks < 90:
+    print("Grade: B")
+else:
+    print("Good job!")
