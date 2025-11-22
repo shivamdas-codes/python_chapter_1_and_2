@@ -191,12 +191,15 @@
 
 
 
-# (13).write a program to count the number of students with the "A" grade in the following tuple
-students_grades = ("A", "B", "C", "A", "A")
-print(type(students_grades))   # type of the variable
-print(len(students_grades))   #lenght of the variable
-print(students_grades.count("A"))
+# # (13).write a program to count the number of students with the "A" grade in the following tuple
+# students_grades = ("A", "B", "C", "A", "A")
+# print(type(students_grades))   # type of the variable
+# print(len(students_grades))   #lenght of the variable
+# print(students_grades.count("A"))
 
 
 
-# (14).
+# (14).store the above value in a list and sort them from "A" to "D"
+list = ["A", "C", "B", "D", "C", "A", "B", "D"]
+list.sort()
+print(list)
