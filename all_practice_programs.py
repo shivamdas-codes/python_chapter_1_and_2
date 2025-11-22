@@ -1,162 +1,190 @@
-#(1).write a program to input 2 numbers and print their sum, difference, product, quotient and remainder
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
+# #(1).write a program to input 2 numbers and print their sum, difference, product, quotient and remainder
+# number1 = int(input("Enter first number: "))
+# number2 = int(input("Enter second number: "))
 
-sum_result = number1 + number2
-difference_result = number1 - number2
-product_result = number1 * number2
-quotient_result = number1 / number2
-remainder_result = number1 % number2
+# sum_result = number1 + number2
+# difference_result = number1 - number2
+# product_result = number1 * number2
+# quotient_result = number1 / number2
+# remainder_result = number1 % number2
 
-print("Sum:", sum_result)
-print("Difference:", difference_result)
-print("Product:", product_result)
-print("Quotient:", quotient_result)
-print("Remainder:", remainder_result)
-
-
-
-#(2).write a program to input side of a square and print its area and perimeter
-side1 = float(input("Enter the square side1: "))
-side2 = int(input("Enter the square side2: "))
-side3,side4 = int(input("Enter perimeter of the square side3: ")), (input("Enter perimeter of the square side4: "))
-
-area = side1 * side1
-print("square side:", side2 ** 2)
-print("Area of square:", area)
-print("Perimeter of square:", 4 * side3,4 * side4)
+# print("Sum:", sum_result)
+# print("Difference:", difference_result)
+# print("Product:", product_result)
+# print("Quotient:", quotient_result)
+# print("Remainder:", remainder_result)
 
 
 
-#(3).write a program to input 2 floating point numbers and print their average
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = int(input("Enter third number: "))
-num4 = int(input("Enter fourth number: "))
+# #(2).write a program to input side of a square and print its area and perimeter
+# side1 = float(input("Enter the square side1: "))
+# side2 = int(input("Enter the square side2: "))
+# side3,side4 = int(input("Enter perimeter of the square side3: ")), (input("Enter perimeter of the square side4: "))
 
-the_average = (num1 + num2) / 2
-print("Average:", the_average)
-print("Average:", (num3 + num4) / 2)
-
-
-
-#(4).write a program to input 2 int numbers, a and b print true if a is greater than or equal to b otherwise print false
-var_a  = int(input("Enter first integer (a): "))
-var_b  = int(input("Enter second integer (b): "))
-if var_a >= var_b:
-    print("True")
-else:
-    print("False")
+# area = side1 * side1
+# print("square side:", side2 ** 2)
+# print("Area of square:", area)
+# print("Perimeter of square:", 4 * side3,4 * side4)
 
 
 
-# (5).write a program to input users first name and print its length
-user_1 = input("first name :")
-firstname = len(user_1)
-print(firstname)
-print(len(user_1))   # prints the length of the string
+# #(3).write a program to input 2 floating point numbers and print their average
+# num1 = float(input("Enter first number: "))
+# num2 = float(input("Enter second number: "))
+# num3 = int(input("Enter third number: "))
+# num4 = int(input("Enter fourth number: "))
+
+# the_average = (num1 + num2) / 2
+# print("Average:", the_average)
+# print("Average:", (num3 + num4) / 2)
 
 
 
-# (6).write a program to find the occerrences of S in a string
-str1 = input("enter string :")
-count = str1.count("s")
-print("Occurrences of 's':", count)   # prints the number of occurrences of 's' in the string
+# #(4).write a program to input 2 int numbers, a and b print true if a is greater than or equal to b otherwise print false
+# var_a  = int(input("Enter first integer (a): "))
+# var_b  = int(input("Enter second integer (b): "))
+# if var_a >= var_b:
+#     print("True")
+# else:
+#     print("False")
 
-str2 = "this is shivam das"
-print(str2.count("s"))   # prints the number of occurrences of 's' in the string
+
+
+# # (5).write a program to input users first name and print its length
+# user_1 = input("first name :")
+# firstname = len(user_1)
+# print(firstname)
+# print(len(user_1))   # prints the length of the string
 
 
 
-# (7).write a program to input the grades of a students based on marks
-student_marks = int(input("Enter your marks: "))
-if student_marks >= 90:
-    print("Grade: A")
-elif student_marks >= 80 and student_marks < 90:
-    print("Grade: B")
-elif student_marks >= 70 and student_marks < 80:
-    print("Grade: C") 
-elif student_marks >= 60 and student_marks < 70:
-    print("Grade: D")  
-else:
-    grade = "Fail"
-    print("Grade:", grade)
+# # (6).write a program to find the occerrences of S in a string
+# str1 = input("enter string :")
+# count = str1.count("s")
+# print("Occurrences of 's':", count)   # prints the number of occurrences of 's' in the string
+
+# str2 = "this is shivam das"
+# print(str2.count("s"))   # prints the number of occurrences of 's' in the string
+
+
+
+# # (7).write a program to input the grades of a students based on marks
+# student_marks = int(input("Enter your marks: "))
+# if student_marks >= 90:
+#     print("Grade: A")
+# elif student_marks >= 80 and student_marks < 90:
+#     print("Grade: B")
+# elif student_marks >= 70 and student_marks < 80:
+#     print("Grade: C") 
+# elif student_marks >= 60 and student_marks < 70:
+#     print("Grade: D")  
+# else:
+#     grade = "Fail"
+#     print("Grade:", grade)
     
 
 
-# (8).write a program to check if a number is entered by the user is even or odd
-num = int (input("Enter a number: "))
-rem = num % 2
-if rem == 0:
-    print("The number is even.")
-else:
-    print("The number is odd.")
+# # (8).write a program to check if a number is entered by the user is even or odd
+# num = int (input("Enter a number: "))
+# rem = num % 2
+# if rem == 0:
+#     print("The number is even.")
+# else:
+#     print("The number is odd.")
 
 
 
-# (9).write a program to find the greatest among 3 numbers entered by the user
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-num3 = int(input("Enter third number: "))
-num4 = int(input("Enter fourth number: "))
+# # (9).write a program to find the greatest among 3 numbers entered by the user
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# num3 = int(input("Enter third number: "))
+# num4 = int(input("Enter fourth number: "))
 
-if num1 >= num2 and num1 >= num3:
-    greatest = num1
-    print("The greatest number is a:", num1)
-elif num2 >= num1 and num2 >= num3:
-    greatest = num2
-    print("The greatest number is b:", num2)  
-elif num3 >= num1 and num3 >= num2:
-    greatest = num3
-    print("The greatest number is c:", num3)
-elif num4 >= num1 and num4 >= num2 and num4 >= num3:
-    greatest = num4
-    print("The greatest number is d:", num4)
-else:
-    print("All numbers are equal.")
+# if num1 >= num2 and num1 >= num3:
+#     greatest = num1
+#     print("The greatest number is a:", num1)
+# elif num2 >= num1 and num2 >= num3:
+#     greatest = num2
+#     print("The greatest number is b:", num2)  
+# elif num3 >= num1 and num3 >= num2:
+#     greatest = num3
+#     print("The greatest number is c:", num3)
+# elif num4 >= num1 and num4 >= num2 and num4 >= num3:
+#     greatest = num4
+#     print("The greatest number is d:", num4)
+# else:
+#     print("All numbers are equal.")
 
 
 
-# (10).write a program to check if a number is multiple of 7 or not
-num = int(input("Enter a number: "))
-rem = num % 7
-if rem == 0:
-    print("The number is a multiple of 7.")
-else:
-    print("The number is not a multiple of 7.")
-# or
-a = int(input("Enter first number: "))
-if a % 7 == 0:
-    print("Multiple of 7")
-else:
-    print("Not a multiple of 7")
+# # (10).write a program to check if a number is multiple of 7 or not
+# num = int(input("Enter a number: "))
+# rem = num % 7
+# if rem == 0:
+#     print("The number is a multiple of 7.")
+# else:
+#     print("The number is not a multiple of 7.")
+# # or
+# a = int(input("Enter first number: "))
+# if a % 7 == 0:
+#     print("Multiple of 7")
+# else:
+#     print("Not a multiple of 7")
     
 
 
-# (11).write a program to ask the user to enter the names of their 3 fav movies and store them in a list
-movies_list = []
-num1 = input("enter the first movie: ")
-num2 = input("enter the second movie: ")
-num3 = input("enter the third movie: ")
-movies_list.append(num1)
-movies_list.append(num2)
-movies_list.append(num3)
-print(movies_list)
-# or
-movies_list1 = []
-num = input("enter 1st movie: ")
-movies_list1.append(num)
-num = input("enter 2nd movie: ")
-movies_list1.append(num)
-num = input("enter 3rd movie: ")
-movies_list1.append(num)
-print(movies_list1)
-# or
-movies_list2 = []
-movies_list2.append(input("enter 1st movie: "))
-movies_list2.append(input("enter 2nd movie: "))
-movies_list2.append(input("enter 3rd movie: "))
-print(movies_list2)
+# # (11).write a program to ask the user to enter the names of their 3 fav movies and store them in a list
+# movies_list = []
+# num1 = input("enter the first movie: ")
+# num2 = input("enter the second movie: ")
+# num3 = input("enter the third movie: ")
+# movies_list.append(num1)
+# movies_list.append(num2)
+# movies_list.append(num3)
+# print(movies_list)
+# # or
+# movies_list1 = []
+# num = input("enter 1st movie: ")
+# movies_list1.append(num)
+# num = input("enter 2nd movie: ")
+# movies_list1.append(num)
+# num = input("enter 3rd movie: ")
+# movies_list1.append(num)
+# print(movies_list1)
+# # or
+# movies_list2 = []
+# movies_list2.append(input("enter 1st movie: "))
+# movies_list2.append(input("enter 2nd movie: "))
+# movies_list2.append(input("enter 3rd movie: "))
+# print(movies_list2)
 
 
 
+# (12).write a program to check if a list contains a "palindrome" of elements (hint: use copy() method)
+list1 = [2,3,3,2]  # this is a palindrome list
+list2 = [5,6,4,1]  # this is not a palindrome list
+list3 = ["m", "a", "a", "m"]
+
+copylist1 = list1.copy()
+copylist1.reverse()
+# if you want to check wheather the given condition is palindrome or not first you have to copy() and then reverse() the given condition.
+copylist2 = list2.copy()
+copylist2.reverse()
+# if you want to check wheather the given condition is palindrome or not first you have to copy() and then reverse() the given condition.
+copylist3 = list3.copy()
+copylist3.reverse()
+# if you want to check wheather the given condition is palindrome or not first you have to copy() and then reverse() the given condition.
+if (copylist1 == list1):
+    print("its a palindrome")
+else:
+     print("not a palindrome")
+
+if (copylist2 == list2):
+        print("its a palindrome")
+else:
+    print("not a palindrome")
+
+if(copylist3 == list3):
+     print("its a palindrome")
+else:
+     print("not a palindrome")
