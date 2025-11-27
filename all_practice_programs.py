@@ -206,15 +206,24 @@
 
 
 
-# (15).store the following word meaning in a pyhton dictionary
-dictionary = {
-    "cat" : "a small animal",
-    "table" : ("a piece of furniture", "list of facts and figures"),
+# # (15).store the following word meaning in a pyhton dictionary
+# dictionary = {
+#     "cat" : "a small animal",
+#     "table" : ("a piece of furniture", "list of facts and figures"),
 
-    "time_table" : {
-        "breakfast" : "8:00 to 9:00",
-        "lunch" : ("12:00", "to", "1:00"),
-        "dinner" : [7,8] 
-    }  #the syntax in the dictionary are very strict
-}
-print(dictionary)
+#     "time_table" : {
+#         "breakfast" : "8:00 to 9:00",
+#         "lunch" : ("12:00", "to", "1:00"),
+#         "dinner" : [7,8] 
+#     }  #the syntax in the dictionary are very strict
+# }
+# print(dictionary)
+
+
+
+# (16).you are given a list of subjects for students. assume one calssroom is required for 1 subject. how many classroom are needed by all students?
+set1 = {"python", "java", "cpp", "python", "js"}
+set2 = {"java", "python", "java", "cpp", "c"}
+print(set1.union(set2))
+# even the above code also written correctly but instead of finding lenght we assumed the subjects as 2 sets. 
+print(len(set1.union(set2))) # by using the lenght function we can say that how many classrooms needed for each subjects.
