@@ -227,3 +227,7 @@ set2 = {"java", "python", "java", "cpp", "c"}
 print(set1.union(set2))
 # even the above code also written correctly but instead of finding lenght we assumed the subjects as 2 sets. 
 print(len(set1.union(set2))) # by using the lenght function we can say that how many classrooms needed for each subjects.
+
+
+
+# (17).write a program to enter marks of 3 subjects from the user and store them in a dictionary.start with an empty dictionary and add one by one.use subject name as key and marks as value.
