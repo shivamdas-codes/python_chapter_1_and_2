@@ -230,19 +230,19 @@
 
 
 
-# (17).write a program to enter marks of 3 subjects from the user and store them in a dictionary.start with an empty dictionary and add one by one.use subject name as key and marks as value.
-student_marks = {}  # an empty dictionary
-subject1 = int(input("enter maths :"))
-student_marks.update({"maths" : subject1})
+# # (17).write a program to enter marks of 3 subjects from the user and store them in a dictionary.start with an empty dictionary and add one by one.use subject name as key and marks as value.
+# student_marks = {}  # an empty dictionary
+# subject1 = int(input("enter maths :"))
+# student_marks.update({"maths" : subject1})
 
-subject2 = int(input("enter science :"))
-student_marks.update({"science" : subject2})
+# subject2 = int(input("enter science :"))
+# student_marks.update({"science" : subject2})
 
-subject3 = int(input("enter english :"))
-student_marks.update({"english" : subject3})
-print(student_marks)
-#DOUBT: IF I GIVE SAME VARIABLE FOR ALL THE VALUES WILL IT OVER RIDE?
-#NOTE: IF WE ENTER/GIVE THE SAME VARIABLE FOR THE ALL THREE INPUTS IT WILL TAKE SEPERATELY AND DONT OVERRIDE WITH EACH OTHER, THE OVERRIDE IS POSSIBLE WHEN THE KEY IS SAME NOT THE VARIABLE
+# subject3 = int(input("enter english :"))
+# student_marks.update({"english" : subject3})
+# print(student_marks)
+# #DOUBT: IF I GIVE SAME VARIABLE FOR ALL THE VALUES WILL IT OVER RIDE?
+# #NOTE: IF WE ENTER/GIVE THE SAME VARIABLE FOR THE ALL THREE INPUTS IT WILL TAKE SEPERATELY AND DONT OVERRIDE WITH EACH OTHER, THE OVERRIDE IS POSSIBLE WHEN THE KEY IS SAME NOT THE VARIABLE
 
 
 
