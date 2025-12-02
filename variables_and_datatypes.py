@@ -49,10 +49,7 @@ print(type(price))
 print(type(name2))
 # the above code represent the type of the data that were given inside the variable
 
-
 print(type(name),type(age),type(price))
-
-
 
 
 age = 21
@@ -72,12 +69,16 @@ print(sum,diff)
 # the above code represents the sum and difference of two numbers
 
 
+
+# EXPRESSION EXECUTION RULES (1 TO 8):
+# RULE 1:
 a,b = 2,3
 txt = "@"
 print(a*txt*b)
 """Rule:1 - The above code represents that the strings and the integers can be operate together by using the *
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
+# RULE 2:
 a,b = "2",3
 txt = "@"
 print((a+txt)*b)
@@ -92,20 +93,16 @@ print(a+txt+b)
 """Rule:2 - The above code represents that the string and string can be operated by using the +  
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
+# RULE 3:
 
 
 
 
-
-
+# RULE 5:
 a = 2
 b = 3
 c = a/b
 print(c)
 """Rule:5 - The above code represents the division between the 2 integers which gives the output as float 
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
-
-
-
-
 
