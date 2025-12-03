@@ -279,10 +279,18 @@
 #     i -= 1
 
 
-# (21). print the multiplication table of a number n
-n = int(input("enter the number:")) # user input [ the input which is given is the fixed input and there is no change in that input]
-i = 1       #starting point from where the loop will start and it can be changed
-while i <= 10:  #ending point where the loop will end and it can be changed too
-    print(n*i)  # 'n' is given input and 'i' is the variable which is changing every time
-    i += 1
-# so, basically we shouldn't assign the 'n' value in the loop because it is a fixed value and 'i' is the variable which is changing every time the loop takes place.
+# # (21). print the multiplication table of a number n
+# n = int(input("enter the number:")) # user input [ the input which is given is the fixed input and there is no change in that input]
+# i = 1       #starting point from where the loop will start and it can be changed
+# while i <= 10:  #ending point where the loop will end and it can be changed too
+#     print(n*i)  # 'n' is given input and 'i' is the variable which is changing every time
+#     i += 1
+# # so, basically we shouldn't assign the 'n' value in the loop because it is a fixed value and 'i' is the variable which is changing every time the loop takes place.
+
+
+# (22). print the elements of a list using while loop
+list = [1,4,9,16,25,36,49,64,81,100]
+index = 0   # index always starts from 0
+while index < len (list):  # len(list) = 10
+    print(list[index])   # prints the element at the current index
+    index += 1           # move to the next index
