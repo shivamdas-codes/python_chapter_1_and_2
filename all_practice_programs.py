@@ -264,19 +264,25 @@
 
 
 
-# WHILE LOOP:
-# (19). print number from 1 to 100
-i = 1
-while i <= 100:
-    print(i)
-    i +=1
+# # WHILE LOOP:
+# # (19). print number from 1 to 100
+# i = 1
+# while i <= 100:
+#     print(i)
+#     i +=1
 
 
-# (20). print numbers from 100 to 1
-i = 100
-while i >= 1:
-    print(i)
-    i -= 1
+# # (20). print numbers from 100 to 1
+# i = 100
+# while i >= 1:
+#     print(i)
+#     i -= 1
 
 
-# (21). 
+# (21). print the multiplication table of a number n
+n = int(input("enter the number:")) # user input [ the input which is given is the fixed input and there is no change in that input]
+i = 1       #starting point from where the loop will start and it can be changed
+while i <= 10:  #ending point where the loop will end and it can be changed too
+    print(n*i)  # 'n' is given input and 'i' is the variable which is changing every time
+    i += 1
+# so, basically we shouldn't assign the 'n' value in the loop because it is a fixed value and 'i' is the variable which is changing every time the loop takes place.
