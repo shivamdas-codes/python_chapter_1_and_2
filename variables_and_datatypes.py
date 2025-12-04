@@ -109,8 +109,6 @@ print(c)
 """Rule:4 - the above rule says that the integer and float can be operated with all the arthmetic operations and returns the float value
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
-
-
 # RULE 5:
 a = 2
 b = 3
@@ -119,3 +117,12 @@ print(c)
 """Rule:5 - The above code represents the division between the 2 integers which gives the output as float 
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
+# RULE 6:
+a = 5.9
+b = 2
+c = a // b
+print(c)
+"""Rule:6 - The above code represents the floor division between the float and integer which gives the output as float
+(THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
+
+# RULE 7:
