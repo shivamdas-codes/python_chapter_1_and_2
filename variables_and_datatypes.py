@@ -94,7 +94,11 @@ print(a+txt+b)
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
 # RULE 3:
-
+a,b = 2,3
+c = 4
+print(a+b*c)
+"""Rule:3 - the above code says that the numaric values can be operater with all the arthmetic operations
+(THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
 
 
