@@ -93,11 +93,20 @@ print(a+txt+b)
 """Rule:2 - The above code represents that the string and string can be operated by using the +  
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
+
 # RULE 3:
 a,b = 2,3
 c = 4
 print(a+b*c)
 """Rule:3 - the above code says that the numaric values can be operater with all the arthmetic operations
+(THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
+
+# RULE 4:
+a = 3
+b = 2.5
+c = (a+b,a-b,a*b,a/b,a%b)
+print(c)
+"""Rule:4 - the above rule says that the integer and float can be operated with all the arthmetic operations and returns the float value
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
 
