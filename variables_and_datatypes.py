@@ -131,3 +131,14 @@ print(num3)
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
 # RULE 7:
+a = 5
+b = 2
+c = a % b
+print(c)
+
+num1 = 27
+num2 = 4
+num3 = num1 % num2
+print(num3)
+"""Rule:7 - The above code represents the modulus operation between the 2 integers which gives the remainder value
+(THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
