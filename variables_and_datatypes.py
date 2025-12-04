@@ -122,6 +122,11 @@ a = 5.9
 b = 2
 c = a // b
 print(c)
+
+num1 = -2
+num2 = 3
+num3 = num1 // num2
+print(num3)
 """Rule:6 - The above code represents the floor division between the float and integer which gives the output as float
 (THIS COMES UNDER EXPRESSION EXECUTION RULE)"""
 
