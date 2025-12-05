@@ -47,11 +47,12 @@ print(order)
 
 # first by assigning the variable value in it 
 
+
+
+# SINGLE LINE:
 food = input("food :")
 print("sweet") if(food == "cake" or food == "icecream") else print("not sweet")
 # second by directly using print statement in it
-
-
 
 
 # this code also part of the ternary operator but in different way, also known as the "clever if" statement
@@ -61,7 +62,7 @@ print(vote)
 
 
 
-
+# CLEVER IF:
 # we can write a clever if statement in 2 ways...
 sal = float(input("salary :"))
 tax = sal *(0.1,0.2) [sal > 50000]
@@ -70,28 +71,6 @@ print(tax)
 sal = float(input("salary :"))
 tax = sal * (0.1 if sal <= 50000 else 0.2)
 print(tax)
-
-
-
-
-# Example program :
-# HACKERRANK PRACTICE PROBLEM
-"""# (1).Given an integer, n , perform the following conditional actions:
-If n is odd, print Weird
-If n is even and in the inclusive range of  to , print Not Weird
-If n is even and in the inclusive range of  to , print Weird
-If n is even and greater than , print Not Weird"""
-
-n = 24
-if(n is "odd" and "odd numbers are weird"):
-    print("weird")
-elif(n is "even" and n in range(2,5)):
-    print("not weird")
-elif(n is "even" and n in range(6,20)):
-    print("weird")
-else:
-    (n > 20 and n is "even")
-    print("not weird")
 
 
 

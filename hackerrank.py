@@ -16,6 +16,19 @@ elif n % 2 == 0 and n in range(6,21):
 elif n % 2 == 0 and n > 20:
     print("not weird")
 
+# or
+
+n = 24
+if(n is "odd" and "odd numbers are weird"):
+    print("weird")
+elif(n is "even" and n in range(2,5)):
+    print("not weird")
+elif(n is "even" and n in range(6,20)):
+    print("weird")
+else:
+    (n > 20 and n is "even")
+    print("not weird")
+
     
 
 """(2).The provided code stub reads two integers from STDIN, a and b. Add code to print three lines where:
