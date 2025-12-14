@@ -148,3 +148,10 @@ else:
     print("c++")
 
 
+
+
+# SHORT CIRCUIT EVALUATION IN LOGICAL OPERATORS
+years = 5
+if True or False:
+    years = years + 2
+print(years)
