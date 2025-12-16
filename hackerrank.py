@@ -56,3 +56,17 @@ num1 = (a // b)
 num2 = (a / b)
 print(num1)
 print(num2)
+
+
+
+"""(4).The provided code stub reads an integer,n, from STDIN. For all non-negative integers i<n, print i square."""
+n = int(input("enter the number:"))
+i = 0
+while i < n:
+    print(i ** 2)
+    i += 1
+# or
+m = int(input("enter the num again:"))
+for i in range(m):
+    print(i**2)
+    i += 1
