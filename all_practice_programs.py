@@ -326,18 +326,27 @@
 # # to find the index of the given number we have to create a new variable 'idx' and assign it by 0 and every time it should be increased by 1 till it matches the x value
 
 
-# (26). print numbers from 100 to 1 using for loop
-for i in range(100,0,-1):   #in 'step' section if we want to increase the value we have to give positive value and if we want to decrease the value we have to give negative value
-    print(i)
+# # (26). print numbers from 100 to 1 using for loop
+# for i in range(100,0,-1):   #in 'step' section if we want to increase the value we have to give positive value and if we want to decrease the value we have to give negative value
+#     print(i)
 
 
-# (27).print numbers from 1 to 100 using for loop
-for i in range(1,101):
-    print(i)
+# # (27).print numbers from 1 to 100 using for loop
+# for i in range(1,101):
+#     print(i)
 
 
-# (28). print the multiplication table of a number n using for loop
-n = int(input("enter the number:"))
-for i in range(1,11):
-    print(n*i)
-    print(f"{n} * {i} = {n*i}") #this line is the formatted string literal which is used to print the multiplication table in a proper format.
+# # (28). print the multiplication table of a number n using for loop
+# n = int(input("enter the number:"))
+# for i in range(1,11):
+#     print(n*i)
+#     print(f"{n} * {i} = {n*i}") #this line is the formatted string literal which is used to print the multiplication table in a proper format.
+
+
+# (29). write a program to find the sum of first n natural numbers using while loop
+n = int(input("enter the value of n:")) #here 'n' is taken as 'i'
+sum = 0 #starting/initial value of sum
+for i in range(1,n+1):  #loop starts from (1 to n+1) because the range function exclude the last value
+    sum += i
+    print(sum)
+
