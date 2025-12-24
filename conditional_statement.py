@@ -154,7 +154,7 @@ if True or False:
     years = years + 2
 print(years)
 
-
+# -----------------------------------------------------------------------------------------------------------------------
 
 # to find wheather the numbers are positive,negative or zero
 var = int(input("enter number:"))
@@ -165,3 +165,5 @@ elif var < 0:
 else:
     print("zero") 
 # just normal code to find the single element is (+,- or 0)
+
+
