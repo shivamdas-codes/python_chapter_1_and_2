@@ -177,12 +177,21 @@
 #     print("the value is not a even not a odd")
 
 
-num1 = input("enter a number:")
-if num1.isdigit():  #this line only works if there is only strings that too any number inside the string.
-    num1 = int(num1)
-    if num1 % 2 == 0:
-        print("its even")
-    else:
-        print("its odd")
+# num1 = input("enter a number:")
+# if num1.isdigit():  #this line only works if there is only strings that too any number inside the string.
+#     num1 = int(num1)
+#     if num1 % 2 == 0:
+#         print("its even")
+#     else:
+#         print("its odd")
+# else:
+#     print("not a valid number")
+
+
+voting_age = int(input("enter your age:"))
+if voting_age > 18:
+    print("you are completely eligible to vote")
+elif voting_age == 18:
+    print("recently eligible \nyes you can vote")
 else:
-    print("not a valid number")
+    print("dont waste time here \nyou are not eligible")
