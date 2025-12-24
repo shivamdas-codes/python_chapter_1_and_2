@@ -188,10 +188,18 @@
 #     print("not a valid number")
 
 
-voting_age = int(input("enter your age:"))
-if voting_age > 18:
-    print("you are completely eligible to vote")
-elif voting_age == 18:
-    print("recently eligible \nyes you can vote")
+# voting_age = int(input("enter your age:"))
+# if voting_age > 18:
+#     print("you are completely eligible to vote")
+# elif voting_age == 18:
+#     print("recently eligible \nyes you can vote")
+# else:
+#     print("dont waste time here \nyou are not eligible")
+
+
+
+var = int(input("enter a number:"))
+if var % 5 == 0:
+    print("divisible by 5")
 else:
-    print("dont waste time here \nyou are not eligible")
+    print("not divisible by 5 ")
