@@ -231,3 +231,7 @@ elif num2 > num3 and num2 > num1:   #here num2 is greater than both num3 and num
     print("num2 is largest")
 else:
     print("num3 is largest")
+# When comparing multiple numbers, each comparison must be explicit.    {for example: a>b and a>c}
+
+
+
