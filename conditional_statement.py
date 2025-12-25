@@ -175,6 +175,7 @@ elif num % 2 != 0:
     print("odd")
 else:
     print("the value is not a even not a odd")
+# even or odd
 
 
 num1 = input("enter a number:")
@@ -186,6 +187,8 @@ if num1.isdigit():  #this line only works if there is only strings that too any 
         print("its odd")
 else:
     print("not a valid number")
+# even or odd with else statement
+
 
 
 voting_age = int(input("enter your age:"))
@@ -195,6 +198,7 @@ elif voting_age == 18:
     print("recently eligible \nyes you can vote")
 else:
     print("dont waste time here \nyou are not eligible")
+# eligible for voting or not
 
 
 
@@ -203,3 +207,14 @@ if var % 5 == 0:
     print("divisible by 5")
 else:
     print("not divisible by 5 ")
+# divisible by 5 or not
+
+
+
+a = int(input("enter first number:"))
+b = int(input("enter second number:"))
+if a > b:
+    print("a is largest number")
+else:
+    print("b is largest number")
+# largest of two numbers
