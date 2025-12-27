@@ -380,20 +380,43 @@
 # # factorial using for loop
 
 # # --------------------------------------------------------------------------------------------------------------------------------
-# (31).write a program to print the lenght of a list (hint:list should be in parameters)
-cities_list = ["hyderabad", "odisha", "mumbai", "chennai"]
-states_list = ["odisha", "telangana", "punjab", "karnataka","maharastra"]
-def find_len(list): #here we can take any thing as parameter because in the above we already gave the list as variable and its values 
-    print(len(list))    #now print the above parameter
-    return cities_list
-find_len(cities_list)   #call the original variables or we can call the given parameter as well.
-find_len(states_list)   #call the original variables or we can call the given parameter as well.
+# # (31).write a program to print the lenght of a list (hint:list should be in parameters)
+# cities_list = ["hyderabad", "odisha", "mumbai", "chennai"]
+# states_list = ["odisha", "telangana", "punjab", "karnataka","maharastra"]
+# def find_len(list): #here we can take any thing as parameter because in the above we already gave the list as variable and its values 
+#     print(len(list))    #now print the above parameter
+#     return cities_list
+# find_len(cities_list)   #call the original variables or we can call the given parameter as well.
+# find_len(states_list)   #call the original variables or we can call the given parameter as well.
 
-def new_list(a,b,c,d):
-    sum = a+b+c+d
-    find_len = len(str(sum))
-    print(sum)
-    print(find_len)
-    return sum
-new_list(1,2,3,4)
+# def new_list(a,b,c,d):
+#     sum = a+b+c+d
+#     find_len = len(str(sum))
+#     print(sum)
+#     print(find_len)
+#     return sum
+# new_list(1,2,3,4)
 
+
+# # (32).write a function to print the elements of a list in a single line
+# list1 = ["a","b","c","d"]
+# list2 = ["1","2","3","4"] 
+# def elements(list):
+#     for i in list:
+#         print(i, end = " ")
+
+#     # print(list, end = "\n")
+#     # return list
+# elements(list1)
+# # elements(list2)
+
+
+# (33).write a program to find the factorial of n
+n = int(input("enter a number:"))
+def cal_fact(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i
+    print(fact)
+    return fact
+cal_fact(n)
