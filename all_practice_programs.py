@@ -419,4 +419,5 @@ def cal_fact(n):
         fact *= i
     print(fact)
     return fact
-cal_fact(n)
+cal_fact(6) #calling function is mandotory no matter what value u have given in first variable or variable is there or not.
+
