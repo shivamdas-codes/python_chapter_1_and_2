@@ -253,6 +253,9 @@ else:
 # divisible by 3 and 7 or not.
 
 
+
+
+
 # number = int(input("enter a number:"))
 # if number == 2:
 #     print("prime number")
@@ -262,7 +265,10 @@ else:
 #     print("ita a prime number")
 # else:
 #     print("its not a prime number")
-# this conditions are not enough to find wheather to find a number is prime number or not.
+# # this conditions are not enough to find wheather to find a number is prime number or not.
+"""doubt problem"""
+
+
 
 
 student_marks = int(input("enter marks:"))
