@@ -471,12 +471,32 @@
 
 
 # (38).write a function that replace all occurrences of a word "python" with "java" in a text file 
-with open("demo.txt", "r") as f:
-    data = f.read()
-new_data = data.replace("python","java")
-print(new_data)
-with open("demo.txt","w") as f:
-    f.write(new_data)
+def replace_word():
+    with open("demo.txt", "r") as f:
+        data = f.read()
+    new_data = data.replace("python","java")
+    print(new_data)
+    with open("demo.txt","w") as f:
+        f.write(new_data)
+replace_word()
 
 
-# (39).
+# (39).search if the word "learning" is present in the text file or not
+def find():
+    with open("demo.txt","r") as f:
+        data = f.read()
+        if "practice" in data:
+            print("present")
+        else:
+            print("not present")
+find()
+# or
+def search_word():
+    word = "learning"
+    with open("demo.txt", "r") as f:
+        data = f.read()
+        if (data.find(word) != -1):
+            print("found")
+        else:
+            print("not found")
+search_word()
