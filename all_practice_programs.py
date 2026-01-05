@@ -459,7 +459,12 @@
 # # ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # FILE INPUT/OUTPUT PRACTICE PROGRAMS:
+# (37). write a program to create a text file and write multiple lines to it
 f = open("demo.txt", "w")
 f.write("hii everyone")
-f.write("\nwe are learning file input/output")
+f.write("\nwe are learning file input/output\ni like python\ni love coding")
 f.close()
+# or
+with open("practice.txt","w") as f:
+    f.write("hello world\nthis is practice file")
+    f.write("\nwe are learning file handling in python")
