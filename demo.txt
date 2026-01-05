@@ -1,0 +1,2 @@
+hii everyone
+we are learning file input/output
