@@ -473,5 +473,10 @@
 # (38).write a function that replace all occurrences of a word "python" with "java" in a text file 
 with open("demo.txt", "r") as f:
     data = f.read()
-    data1 = data.replace("python","java")
-    print(data1)
+new_data = data.replace("python","java")
+print(new_data)
+with open("demo.txt","w") as f:
+    f.write(new_data)
+
+
+# (39).
