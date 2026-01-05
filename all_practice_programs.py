@@ -458,13 +458,20 @@
     
 # # ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-# FILE INPUT/OUTPUT PRACTICE PROGRAMS:
-# (37). write a program to create a text file and write multiple lines to it
-f = open("demo.txt", "w")
-f.write("hii everyone")
-f.write("\nwe are learning file input/output\ni like python\ni love coding")
-f.close()
-# or
-with open("practice.txt","w") as f:
-    f.write("hello world\nthis is practice file")
-    f.write("\nwe are learning file handling in python")
+# # FILE INPUT/OUTPUT PRACTICE PROGRAMS:
+# # (37). write a program to create a text file and write multiple lines to it
+# f = open("demo.txt", "w")
+# f.write("hii everyone")
+# f.write("\nwe are learning file input/output\ni like python\ni love coding")
+# f.close()
+# # or
+# with open("practice.txt","w") as f:
+#     f.write("hello world\nthis is practice file")
+#     f.write("\nwe are learning file handling in python")
+
+
+# (38).write a function that replace all occurrences of a word "python" with "java" in a text file 
+with open("demo.txt", "r") as f:
+    data = f.read()
+    data1 = data.replace("python","java")
+    print(data1)
