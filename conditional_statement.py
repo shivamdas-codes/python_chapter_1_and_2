@@ -256,16 +256,16 @@ else:
 
 
 
-# number = int(input("enter a number:"))
-# if number == 2:
-#     print("prime number")
-# elif number == 3:
-#     print("prime number")
-# elif number > 1 and number % 2 != 0 and number % 3 != 0:
-#     print("ita a prime number")
-# else:
-#     print("its not a prime number")
-# # this conditions are not enough to find wheather to find a number is prime number or not.
+number = int(input("enter a number:"))
+if number == 2:
+    print("prime number")
+elif number == 3:
+    print("prime number")
+elif number > 1 and number % 2 != 0 and number % 3 != 0:
+    print("ita a prime number")
+else:
+    print("its not a prime number")
+# this conditions are not enough to find wheather to find a number is prime number or not.
 """doubt problem"""
 
 
