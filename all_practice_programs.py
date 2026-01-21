@@ -91,34 +91,3 @@ movies_list2.append(input("enter 1st movie: "))
 movies_list2.append(input("enter 2nd movie: "))
 movies_list2.append(input("enter 3rd movie: "))
 print(movies_list2)
-
-
-
-# (12).write a program to check if a list contains a "palindrome" of elements (hint: use copy() method)
-list1 = [2,3,3,2]  # this is a palindrome list
-list2 = [5,6,4,1]  # this is not a palindrome list
-list3 = ["m", "a", "a", "m"]
-
-copylist1 = list1.copy()
-copylist1.reverse()
-# if you want to check wheather the given condition is palindrome or not first you have to copy() and then reverse() the given condition.
-copylist2 = list2.copy()
-copylist2.reverse()
-# if you want to check wheather the given condition is palindrome or not first you have to copy() and then reverse() the given condition.
-copylist3 = list3.copy()
-copylist3.reverse()
-# if you want to check wheather the given condition is palindrome or not first you have to copy() and then reverse() the given condition.
-if (copylist1 == list1):
-    print("its a palindrome")
-else:
-     print("not a palindrome")
-
-if (copylist2 == list2):
-        print("its a palindrome")
-else:
-    print("not a palindrome")
-
-if(copylist3 == list3):
-     print("its a palindrome")
-else:
-     print("not a palindrome")
