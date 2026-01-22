@@ -40,16 +40,6 @@ print("Average:", (num3 + num4) / 2)
 
 
 
-#(4).write a program to input 2 int numbers, a and b print true if a is greater than or equal to b otherwise print false
-var_a  = int(input("Enter first integer (a): "))
-var_b  = int(input("Enter second integer (b): "))
-if var_a >= var_b:
-    print("True")
-else:
-    print("False")
-
-
-
 # (5).write a program to input users first name and print its length
 user_1 = input("first name :")
 firstname = len(user_1)
@@ -66,28 +56,3 @@ print("Occurrences of 's':", count)   # prints the number of occurrences of 's' 
 str2 = "this is shivam das"
 print(str2.count("s"))   # prints the number of occurrences of 's' in the string
 
-
-# (11).write a program to ask the user to enter the names of their 3 fav movies and store them in a list
-movies_list = []
-num1 = input("enter the first movie: ")
-num2 = input("enter the second movie: ")
-num3 = input("enter the third movie: ")
-movies_list.append(num1)
-movies_list.append(num2)
-movies_list.append(num3)
-print(movies_list)
-# or
-movies_list1 = []
-num = input("enter 1st movie: ")
-movies_list1.append(num)
-num = input("enter 2nd movie: ")
-movies_list1.append(num)
-num = input("enter 3rd movie: ")
-movies_list1.append(num)
-print(movies_list1)
-# or
-movies_list2 = []
-movies_list2.append(input("enter 1st movie: "))
-movies_list2.append(input("enter 2nd movie: "))
-movies_list2.append(input("enter 3rd movie: "))
-print(movies_list2)

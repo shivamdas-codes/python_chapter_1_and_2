@@ -379,3 +379,13 @@ if(copylist3 == list3):
      print("its a palindrome")
 else:
      print("not a palindrome")
+
+
+
+#(4).write a program to input 2 int numbers, a and b print true if a is greater than or equal to b otherwise print false
+var_a  = int(input("Enter first integer (a): "))
+var_b  = int(input("Enter second integer (b): "))
+if var_a >= var_b:
+    print("True")
+else:
+    print("False")
