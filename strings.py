@@ -113,3 +113,13 @@ print(str1.count("o"))       # returns the number of occurrences of the characte
 print(str1.count("python"))   # returns 0 if the substring is not found
 
 
+# ------------------------------------------------------------------------------------------------------------------------
+
+
+# (6).write a program to find the occerrences of S in a string
+str1 = input("enter string :")
+count = str1.count("s")
+print("Occurrences of 's':", count)   # prints the number of occurrences of 's' in the string
+
+str2 = "this is shivam das"
+print(str2.count("s"))   # prints the number of occurrences of 's' in the string

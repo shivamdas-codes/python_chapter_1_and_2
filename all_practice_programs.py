@@ -48,11 +48,4 @@ print(len(user_1))   # prints the length of the string
 
 
 
-# (6).write a program to find the occerrences of S in a string
-str1 = input("enter string :")
-count = str1.count("s")
-print("Occurrences of 's':", count)   # prints the number of occurrences of 's' in the string
-
-str2 = "this is shivam das"
-print(str2.count("s"))   # prints the number of occurrences of 's' in the string
 
